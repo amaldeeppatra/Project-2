@@ -1,0 +1,36 @@
+body{
+    height: 720px;
+    background: linear-gradient(to top right, red, blue);
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.container{
+    width: 400px;
+    height: 450px;
+    background-color: whitesmoke;
+    margin: 100px 550px;
+}
+
+#task{
+    margin-left: 80px;
+}
+
+li{
+    list-style-type: none;
+    background-color: rgb(201, 194, 194);
+    padding: 3px;
+    margin: 5px;
+    margin-left: -18px;
+    margin-right: 18px;
+}
+
+ul li.checked{
+    text-decoration: line-through;
+}
